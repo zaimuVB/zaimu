@@ -5,6 +5,5 @@ CREATE TABLE [dbo].[syozokubu_table_zaimu] (
   , [sort_jyun] INT
   , [seko_kubun] INT
   , [ka_su] INT
-  , [siten_flag] NVARCHAR(30)
-  , primary key (syozokubu_code)
+  , [siten] NVARCHAR(30)
 );
