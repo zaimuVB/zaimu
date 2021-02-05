@@ -1,0 +1,15 @@
+CREATE TABLE [dbo].[kyufuri_master] (
+  [jyotai_code] VARCHAR(1)
+  , [syain_code] VARCHAR(6)
+  , [ginko_code] VARCHAR(7)
+  , [syubetsu_code] VARCHAR(1)
+  , [koza_bango] VARCHAR(7)
+  , [toriatsukai_ginko] VARCHAR(4)
+  , [yokin_ginko_code] VARCHAR(7)
+  , [yokin_syubetsu_code] VARCHAR(1)
+  , [yokin_koza_bango] VARCHAR(7)
+  , [yokin_toriatsukai_gonko] VARCHAR(4)
+  , [sakujyo_hizuke] VARCHAR(6)
+  , [sonota] VARCHAR(9)
+  , primary key (syain_code)
+);
