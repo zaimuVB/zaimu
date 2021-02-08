@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[gaicyuhi_table] (
-  [tenmei] VARCHAR(10) NOT NULL
+  [tenmei] NVARCHAR(10) NOT NULL
   , [siharai_kubun] VARCHAR(10) NOT NULL
   , [nyuryoku_sya] VARCHAR(6) NOT NULL
   , [nyuryoku_nitiji] DateTime NOT NULL
@@ -26,10 +26,9 @@ CREATE TABLE [dbo].[gaicyuhi_table] (
   , [zeinuki_kingaku] Money
   , [gyoban] VARCHAR(10)
   , [torihikisaki_code] VARCHAR(6)
-  , [meisyo] VARCHAR(48)
+  , [meisyo] NVARCHAR(48)
   , [bunrui] VARCHAR(1)
-  , [tekiyo] VARCHAR(30)
+  , [tekiyo] NVARCHAR(30)
   , [siharai_syuryo_code] VARCHAR(1)
   , [wk_seisan_kingaku] Money
-  , primary key (tenmei, siharai_kubun, nyuryoku_sya, nyuryoku_nitiji, yoto)
 );

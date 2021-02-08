@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[t_denpyo_table] (
-  [tenmei] Varchar(10)
+  [tenmei] Nvarchar(10)
   , [siharai_kubun] Varchar(10)
   , [nyuryoku_sya] Varchar(6)
   , [nyuryoku_nitiji] DateTime
@@ -26,9 +26,9 @@ CREATE TABLE [dbo].[t_denpyo_table] (
   , [zeinuki_kingaku] Money
   , [gyoban] Varchar(10)
   , [torihikisaki_code] Varchar(6)
-  , [meisyo] Varchar(48)
+  , [meisyo] Nvarchar(48)
   , [bunrui] Varchar(1)
-  , [tekiyo] Varchar(30)
+  , [tekiyo] Nvarchar(30)
   , [siharai_syuryo_code] Float
   , [wk_seisan_kingaku] Money
 );

@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[t_tenmei_table] (
-  [tenmei] Varchar(10)
-  , [tenmei_dummy] Varchar(10)
+  [tenmei] Nvarchar(10)
+  , [tenmei_dummy] Nvarchar(10)
   , [hyoji_jyun] Int
 );

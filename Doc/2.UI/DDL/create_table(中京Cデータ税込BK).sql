@@ -2,18 +2,18 @@ CREATE TABLE [dbo].[cyukyoc_data_zeikomi_backup] (
   [nohin_bi] DateTime
   , [nohinsyo_bango] Varchar(255)
   , [hinmei] Varchar(255)
-  , [suryo] Int
-  , [tanka] Int
-  , [zeinuki_kingaku] Int
+  , [suryo] Decimal
+  , [tanka] Decimal
+  , [zeinuki_kingaku] Decimal
   , [gyoban] Varchar(255)
   , [saimoku] Varchar(255)
   , [kokyaku_tanto] Varchar(255)
   , [tekiyo] Varchar(255)
   , [gyomukubun_code] Varchar(255)
   , [sekobu_code] Varchar(255)
-  , [sekoka_code] Int
+  , [sekoka_code] Decimal
   , [nohinbi_sitei] DateTime
-  , [zeikomi_kingaku] Int
+  , [zeikomi_kingaku] Decimal
   , [error_number_1] Varchar(255)
   , [error_number_2] Varchar(255)
   , [error_number_3] Varchar(255)
